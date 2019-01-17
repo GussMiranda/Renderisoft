@@ -1,21 +1,121 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#">Hidden brand</a>
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+<body>
+  
 
-<router-outlet></router-outlet>
+<div class="container"> 
+  <div class="row">
+      <div class="col-12 col-md-8">
+          <div class="row">
+              <div  id= "webCamEst"> <app-web-estudent></app-web-estudent> </div> 
+          </div>
+       
+        <div class="row">
+            <div  id= "webCamDoc" ><app-streamming></app-streamming></div> 
+        </div>
+       </div>
+      <div class="col-6 col-md-4" id="Chat"> <app-chat></app-chat></div>  
+  </div>
+ 
+</div>
+</body>
+<footer class="footer">
+    <div class="container bottom_border">
+    <div class="row">
+    <div class=" col-sm-4 col-md col-sm-4  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+    <!--headin5_amrc-->
+    <p class="mb10">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+    <p><i class="fa fa-location-arrow"></i> 9878/25 sec 9 rohini 35 </p>
+    <p><i class="fa fa-phone"></i>  +91-9999878398  </p>
+    <p><i class="fa fa fa-envelope"></i> info@example.com  </p>
+    
+    
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <li><a href="http://kalarikendramdelhi.com">Image Rectoucing</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Clipping Path</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Hollow Man Montage</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Ebay & Amazon</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Hair Masking/Clipping</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Image Cropping</a></li>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-6 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Quick links</h5>
+    <!--headin5_amrc-->
+    <ul class="footer_ul_amrc">
+    <li><a href="http://kalarikendramdelhi.com">Remove Background</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Shadows & Mirror Reflection</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Logo Design</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Vectorization</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Hair Masking/Clipping</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Image Cropping</a></li>
+    </ul>
+    <!--footer_ul_amrc ends here-->
+    </div>
+    
+    
+    <div class=" col-sm-4 col-md  col-12 col">
+    <h5 class="headin5_amrc col_white_amrc pt2">Follow us</h5>
+    <!--headin5_amrc ends here-->
+    
+    <ul class="footer_ul2_amrc">
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    <li><a href="#"><i class="fab fa-twitter fleft padding-right"></i> </a><p>Lorem Ipsum is simply dummy text of the printing...<a href="#">https://www.lipsum.com/</a></p></li>
+    </ul>
+    <!--footer_ul2_amrc ends here-->
+    </div>
+    </div>
+    </div>
+    
+    
+    <div class="container">
+    <ul class="foote_bottom_ul_amrc">
+    <li><a href="http://kalarikendramdelhi.com">Home</a></li>
+    <li><a href="http://kalarikendramdelhi.com">About</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Services</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Pricing</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Blog</a></li>
+    <li><a href="http://kalarikendramdelhi.com">Contact</a></li>
+    </ul>
+    <!--foote_bottom_ul_amrc ends here-->
+    <p class="text-center">Copyright @2017 | Designed With by <a href="#">Renderisoft Inc.</a></p>
+    
+  
+    <!--social_footer_ul ends here-->
+    </div>
+    
+    </footer>
+    
+    

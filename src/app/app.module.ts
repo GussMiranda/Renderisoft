@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { LoginComponent } from './login/login.component';
+import { StreammingComponent } from './streamming/streamming.component';
+import { WebEstudentComponent } from './web-estudent/web-estudent.component';
+import { ChatComponent } from './chat/chat.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent,
+    StreammingComponent,
+    WebEstudentComponent,
+    ChatComponent
   ],
   imports: [
     BrowserModule,
